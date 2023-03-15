@@ -1,14 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Header from './components/Header';
+import ProjectContainer from './components/ProjectContainer';
 import NavBar from './components/NavBar';
+import AboutMe from './components/AboutMe'; 
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';  
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <NavBar />
+      <AboutMe />
+      <ProjectContainer />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }

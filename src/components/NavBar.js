@@ -1,21 +1,31 @@
-import React from 'react';
+import React from "react";
+import Logo from "../assets/Cussler.png";
 
-
-const styles = {
-    navBarStyle: {
-        justifyContent: 'flex-end', 
-    }, 
-}; 
 
 function NavBar() {
-    return (
-        <nav style={styles.navBarStyle} className='nav-bar'>
+  return (
+    <div className="navbar bg-base-100 fixed">
+      <div className="flex-1">
+        <img className='w-10' src={Logo} alt='Letters EC in orange'/>
+      </div>
+      <div className="flex-none">
+        <ul className="menu menu-horizontal px-1">
+          <li>
             <a href="/">About Me</a>
+          </li>
+          <li>
             <a href="/">Portfolio</a>
+          </li>
+          <li>
             <a href="/">Contact Me</a>
+          </li>
+          <li>
             <a href="/">Resume</a>
-        </nav>
-    );
-}; 
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
 
-export default NavBar; 
+export default NavBar;
