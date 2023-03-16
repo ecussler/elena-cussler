@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from '../assets/ec-avatar-blue.png'; 
-import Watercolor from '../assets/Home.png'; 
+import Watercolor from '../assets/home.png'; 
 
 function AboutMe() {
   return (
