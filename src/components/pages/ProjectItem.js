@@ -23,7 +23,7 @@ function ProjectItem(props) {
             <p>{item.description}</p>
             <div className="card-actions justify-center">
                 <button href={item.github} className="btn-secondary rounded-xl btn-m p-2">GitHub Repo</button>            <div className="card-actions justify-end">
-                <button href={item.github} className="btn-secondary rounded-xl btn-m p-2">Deployed Site</button>
+                <button href={item.site} className="btn-secondary rounded-xl btn-m p-2">Deployed Site</button>
             </div>
             </div>
         </div>

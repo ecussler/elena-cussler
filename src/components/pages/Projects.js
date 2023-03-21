@@ -14,7 +14,8 @@ const projects = [
             'Handlebars.js'
         ], 
         description: 'Online app to display bakery goods and create user accounts for ordering.', 
-        github: 'https://github.com/EarlofSmith/sweet-solution'
+        github: 'https://github.com/EarlofSmith/sweet-solution', 
+        site: 'https://sweet-solution.herokuapp.com/'
     }, 
     {
         name: "Cocktailz", 
@@ -24,7 +25,8 @@ const projects = [
             'RESTful API'
         ], 
         description: 'Online front-end app to randomly generate cocktail recipes', 
-        github: 'https://github.com/lizedelman/bopsnbooze'
+        github: 'https://github.com/lizedelman/bopsnbooze', 
+        site: 'https://lizedelman.github.io/bopsnbooze/'
     }, 
     {
         name: 'Third Project', 
@@ -32,10 +34,11 @@ const projects = [
             'TBD'
         ], 
         description: 'Currently working with group to establish user story', 
-        github: 'TBD'
+        github: 'TBD', 
+        site: 'TBD'
     }
 ]
-function ProjectContainer() {
+function Projects() {
     return (
         <div className="hero min-h-screen bg-white" >
             <div className="text-base-content glass xl:rounded-box -mt-48 grid max-w-screen-xl gap-4 bg-opacity-60 xl:pb-0 mx-10 bg-blue-200">
@@ -52,4 +55,4 @@ function ProjectContainer() {
     ); 
 };
 
-export default projects; 
+export default Projects; 

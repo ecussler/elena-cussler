@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { validateEmail } from "../../utils/helpers";
-import Burst from '../assets/burst.png'; 
+import Burst from '../../assets/burst.png'; 
 
 function ContactMe() {
   const [name, setName] = useState(null);

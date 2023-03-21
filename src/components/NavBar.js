@@ -12,7 +12,7 @@ const styles = {
 
 function NavBar() {
   return (
-    <div className="navbar fixed relative">
+    <div className="navbar fixed relative bg-transparent">
       <div className="flex-1">
         <img className='w-10' src={Logo} alt='Letters EC in orange'/>
       </div>
@@ -22,13 +22,13 @@ function NavBar() {
             <a href="/">About Me</a>
           </li>
           <li>
-            <a href="/">Projects</a>
+            <a href="/Projects">Projects</a>
           </li>
           <li>
-            <a href="/">Contact Me</a>
+            <a href="/ContactMe">Contact Me</a>
           </li>
           <li>
-            <a href="/">Resume</a>
+            <a href="/Resume">Resume</a>
           </li>
         </ul>
       </div>
