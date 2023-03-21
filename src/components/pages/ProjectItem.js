@@ -6,7 +6,7 @@ const styles = {
     }
 }
 
-function Project(props) {
+function ProjectItem(props) {
   return (
     <div id='project-container' className="flex w-full grid-flow-row grid-cols-3 items-center gap-4 overflow-y-hidden overflow-x-scroll px-10 pt-1 pb-10 xl:grid xl:overflow-x-auto xl:px-4">
     {props.projects.map(item => (
@@ -33,4 +33,4 @@ function Project(props) {
   );
 }
 
-export default Project;
+export default ProjectItem;

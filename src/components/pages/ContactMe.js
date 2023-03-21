@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 import Burst from '../assets/burst.png'; 
 
 function ContactMe() {

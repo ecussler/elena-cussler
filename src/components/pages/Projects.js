@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project'; 
+import ProjectItem from './ProjectItem'; 
 
 
 
@@ -44,7 +44,7 @@ function ProjectContainer() {
                 <h2 className='text-3xl font-bold px-3 py-2'>My Projects</h2>
             </div>
 
-                <Project projects={projects}/>
+                <ProjectItem projects={projects}/>
 
 
         </div> 
@@ -52,4 +52,4 @@ function ProjectContainer() {
     ); 
 };
 
-export default ProjectContainer; 
+export default projects; 
