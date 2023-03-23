@@ -1,6 +1,8 @@
 // import { url } from "inspector";
 import React from "react";
 import Logo from "../assets/Cussler.png";
+import { Link } from "react-router-dom";
+
 
 const styles = {
   body: {
@@ -12,23 +14,23 @@ const styles = {
 
 function NavBar() {
   return (
-    <div className="navbar fixed relative bg-transparent">
+    <div className="navbar fixed relative bg-transparent pb-5">
       <div className="flex-1">
         <img className='w-10' src={Logo} alt='Letters EC in orange'/>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1" styles={styles.body}>
           <li>
-            <a href="/">About Me</a>
+            <Link to="/">About Me</Link>
           </li>
           <li>
-            <a href="/Projects">Projects</a>
+            <Link to="projects">Projects</Link>
           </li>
           <li>
-            <a href="/ContactMe">Contact Me</a>
+            <Link to="contact-me">Contact Me</Link>
           </li>
           <li>
-            <a href="/Resume">Resume</a>
+            <Link to="resume">Resume</Link>
           </li>
         </ul>
       </div>
