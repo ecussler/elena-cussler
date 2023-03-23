@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/elena-cussler/static/css/main.36b25f8a.css",
+    "main.js": "/elena-cussler/static/js/main.c8a9bb2d.js",
+    "static/media/home.png": "/elena-cussler/static/media/home.7e9eeb3b0eeb0594709a.png",
+    "static/media/2023_Resume.pdf": "/elena-cussler/static/media/2023_Resume.3c1cdbb836f8f3145047.pdf",
+    "static/media/burst.png": "/elena-cussler/static/media/burst.437bf0d4494c22156e27.png",
+    "static/media/ec-avatar-blue.png": "/elena-cussler/static/media/ec-avatar-blue.ec4d1438ecece2e913fa.png",
+    "static/media/Cussler.png": "/elena-cussler/static/media/Cussler.e48beacdb99e6349ff72.png",
+    "index.html": "/elena-cussler/index.html",
+    "main.36b25f8a.css.map": "/elena-cussler/static/css/main.36b25f8a.css.map",
+    "main.c8a9bb2d.js.map": "/elena-cussler/static/js/main.c8a9bb2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36b25f8a.css",
+    "static/js/main.c8a9bb2d.js"
+  ]
+}
