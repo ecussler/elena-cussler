@@ -42,7 +42,7 @@ const projects = [
         ], 
         description: 'Mobie first app developed to keep Bootcamp classmates in touch', 
         github: 'https://github.com/jcg0/code-collective-project-3', 
-        site: 'https://github.com/jcg0/code-collective-project-3'
+        site: 'https://code-collectives.herokuapp.com'
     },
     // {
     //     name: 'Code Collective', 
