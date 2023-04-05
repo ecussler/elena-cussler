@@ -8,7 +8,7 @@ module.exports = {
 
   daisyui: {
     styled: true,
-    themes: ['fantasy', 'dracula, acid'],
+    themes: ['fantasy', 'dracula', 'acid'],
     base: true,
     utils: true,
     logs: true,

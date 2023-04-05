@@ -29,23 +29,30 @@ const projects = [
         site: 'https://lizedelman.github.io/bopsnbooze/'
     }, 
     {
-        name: 'Third Project', 
+        name: 'Code Collective', 
         techs: [
-            'TBD'
+            'Node.js', 
+            'React', 
+            'TailwindUI', 
+            'DaisyUI', 
+            'GraphQL', 
+            'MongoDB', 
+            'Mongoose', 
+            'Apollo', 
         ], 
-        description: 'Currently working with group to establish user story', 
-        github: 'TBD', 
-        site: 'TBD'
+        description: 'Mobie first app developed to keep Bootcamp classmates in touch', 
+        github: 'https://github.com/jcg0/code-collective-project-3', 
+        site: 'https://github.com/jcg0/code-collective-project-3'
     },
-    {
-        name: 'Third Project', 
-        techs: [
-            'TBD'
-        ], 
-        description: 'Currently working with group to establish user story', 
-        github: 'TBD', 
-        site: 'TBD'
-    },
+    // {
+    //     name: 'Code Collective', 
+    //     techs: [
+    //         'TBD'
+    //     ], 
+    //     description: 'Currently working with group to establish user story', 
+    //     github: 'TBD', 
+    //     site: 'TBD'
+    // },
 ]
 function Projects() {
     return (
