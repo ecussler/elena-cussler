@@ -42,7 +42,7 @@ function ContactMe() {
         <div className="card glass xl:rounded-box w-full max-w-screen-xl shadow-2xl">
           <div className="card-body">
             <div>
-                <h2 className="text-3xl font-bold">Contact Me</h2>
+                <h1 className="text-3xl font-bold">Contact Me</h1>
             </div>
             {/* CONTACT ME FORM */}
             <form onSubmit={handleFormSubmit}>

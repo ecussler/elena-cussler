@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PortfolioContainer from "./components/PortfolioContainer";
+import Home from "./components/pages/Home"; 
 import Resume from "./components/pages/Resume";
 import Projects from "./components/pages/Projects";
 import Footer from "./components/Footer";
@@ -16,7 +17,8 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/elena-cussler" element={<AboutMe />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact-me" element={<ContactMe />} />
           <Route path="/resume" element={<Resume />} />
