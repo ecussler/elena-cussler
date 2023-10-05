@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/elena-cussler/static/css/main.a327e7a9.css",
-    "main.js": "/elena-cussler/static/js/main.8401164d.js",
+    "main.css": "/elena-cussler/static/css/main.ce9e421f.css",
+    "main.js": "/elena-cussler/static/js/main.a520d0b8.js",
     "static/media/home.png": "/elena-cussler/static/media/home.7e9eeb3b0eeb0594709a.png",
-    "static/media/2023_Resume.pdf": "/elena-cussler/static/media/2023_Resume.3c1cdbb836f8f3145047.pdf",
+    "static/media/tartine.jpg": "/elena-cussler/static/media/tartine.f2707faa73d6bce060a8.jpg",
     "static/media/burst.png": "/elena-cussler/static/media/burst.437bf0d4494c22156e27.png",
+    "static/media/flowers.jpg": "/elena-cussler/static/media/flowers.4c6675612f3f18f0926a.jpg",
+    "static/media/lake.jpg": "/elena-cussler/static/media/lake.3c7acd32c054353a8943.jpg",
+    "static/media/pie.jpg": "/elena-cussler/static/media/pie.52ef79898cc518ea61e2.jpg",
+    "static/media/hike.jpg": "/elena-cussler/static/media/hike.b12120052600ad1dc532.jpg",
+    "static/media/rainbow.jpg": "/elena-cussler/static/media/rainbow.1a4a01470928db899e25.jpg",
+    "static/media/p1.jpg": "/elena-cussler/static/media/p1.6a9f7fb21e54ab792597.jpg",
+    "static/media/hilde.jpg": "/elena-cussler/static/media/hilde.b7b503a44db00d299dfd.jpg",
     "static/media/ec-avatar-blue.png": "/elena-cussler/static/media/ec-avatar-blue.ec4d1438ecece2e913fa.png",
     "static/media/Cussler.png": "/elena-cussler/static/media/Cussler.e48beacdb99e6349ff72.png",
+    "static/media/2023_Resume.pdf": "/elena-cussler/static/media/2023_Resume.632f677aae2151016ca8.pdf",
     "index.html": "/elena-cussler/index.html",
-    "main.a327e7a9.css.map": "/elena-cussler/static/css/main.a327e7a9.css.map",
-    "main.8401164d.js.map": "/elena-cussler/static/js/main.8401164d.js.map"
+    "main.ce9e421f.css.map": "/elena-cussler/static/css/main.ce9e421f.css.map",
+    "main.a520d0b8.js.map": "/elena-cussler/static/js/main.a520d0b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a327e7a9.css",
-    "static/js/main.8401164d.js"
+    "static/css/main.ce9e421f.css",
+    "static/js/main.a520d0b8.js"
   ]
 }
