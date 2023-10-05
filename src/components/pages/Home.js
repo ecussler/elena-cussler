@@ -19,7 +19,7 @@ function Home() {
           <p className="py-3">I am a hard-working professional seeking new opportunities in front-end web development. My diverse work background, MERN stack training, and passion for learning give me the unique ability to relate with clients of all types and translate their vision into clean, efficient, and accessible products. </p>
           <p className='py-3'> Take a look around my profile and please feel free to reach out with any questions!</p>
           <Link to="/contact-me" className="btn btn-lg">
-            Let's Connect
+            Let's Connect!
           </Link>
         </div>
       </div>
